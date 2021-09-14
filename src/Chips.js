@@ -12,7 +12,7 @@ export default class Chips extends Component {
         }
     }
     change = () => {
-        let angle = Math.random() * 180 - 10;
+        let angle = Math.random() * 360 - 45;
         let xPos = Math.random() * (Math.random() * 1250);
         let yPos = Math.random() * (Math.random() * 400);
         // let transform = `translate(${xPos}px,${yPos}px) rotate(${angle}deg)`
@@ -39,7 +39,9 @@ export default class Chips extends Component {
                         <div className="image_content">
                             {this.state.chipsPackets.length > 0 && this.state.chipsPackets.map((chipsData) => (
                                 <img
-                                    style={{ top: `${chipsData.yPos}px`, left: `${chipsData.xPos}px` }}
+                                    style={{
+                                        top: `${chipsData.yPos}px`, left: `${chipsData.xPos}px`, transform: `rotate(${chipsData.angle}deg)`,
+                                    }}
                                     className="chips"
                                     src={Lays}
                                     alt="ChipsImage"
