@@ -1,0 +1,26 @@
+.video {
+    position: relative;
+}
+.abs {
+    position: absolute;
+    left:0;
+    right: 0;
+    margin : auto;
+    top :40%;
+    width: 500px;
+    height: 130px;
+    background-color: rgb(218, 215, 233);
+    border-radius: 5px;
+    text-align: center;
+    opacity: 0.8;
+  }
+.abs a {
+    color: black;
+}
+.abs p {
+    font-weight: 550;
+    font-size: large;
+}
+.link {
+    margin-top: 40px;
+}

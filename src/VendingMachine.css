@@ -1,0 +1,40 @@
+.machine {
+    height: 717px;
+    width: 100%;
+  }
+  .relative {
+    position: relative;
+  }
+  .absolute {
+    position: absolute;
+    top : 40%;
+    right: 50px;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(36, 38, 187);
+    border-radius: 5px;
+  }
+  nav a {
+    display: block;
+    text-align: center;
+    margin: 5px;
+    color: white;
+  }
+  
+  .absolute2 {
+    position: absolute;
+    top : 40%;
+    left: 50px;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(36, 38, 187);
+    opacity: 0.8;
+    border-radius: 5px;
+  }
+  .absolute2 p {
+    font-weight: 550;
+    font-size: large;
+    padding: 7px 10px;
+    color: white;
+  }
+  
